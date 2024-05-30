@@ -1,0 +1,24 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "backend du gestionnaire de tâche collaboratif",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "tsabeng",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
